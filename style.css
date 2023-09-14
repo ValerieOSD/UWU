@@ -1,0 +1,34 @@
+.imgdiv {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imgbin {
+    width: 60vh;
+}
+
+img.acceptimg {
+    width: 5%;
+    position: absolute;
+    left: 850px;
+    bottom: 130px;
+}
+
+
+img.declineimg {
+    width: 5%;
+    position: absolute;
+    left: 610px;
+    bottom: 130px;
+}
+
+.imgaccept {
+    width: 30vw;
+}
+
+.imgdecline {
+    width: 30vw;
+}

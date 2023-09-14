@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the bin is calling</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: black;margin: 0px;">
+
+    <div class="imgdiv">
+        <img class="imgbin" src="bin.png" alt="Doxbin">
+    </div>
+
+    <a href="accept/index.html">
+            <img class="acceptimg" src="accept.png" alt="Accept">
+    </a>
+
+    <a href="decline/index.html">
+            <img class="declineimg" src="decline.png" alt="Decline">
+    </a>
+
+</body>
+<script>
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+  });
+
+
+document.onkeydown = (e) => {
+    if (e.key == 123) {
+        e.preventDefault();
+    }
+    if (e.ctrlKey && e.shiftKey && e.key == 'I') {
+        e.preventDefault();
+    }
+    if (e.ctrlKey && e.shiftKey && e.key == 'C') {
+        e.preventDefault();
+    }
+    if (e.ctrlKey && e.shiftKey && e.key == 'J') {
+        e.preventDefault();
+    }
+    if (e.ctrlKey && e.key == 'U') {
+        e.preventDefault();
+    }
+};
+</script>
+</html>
