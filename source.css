@@ -1,14 +1,11 @@
 .platform-win .typeWindows_e41dab {
   z-index: 102;
   position: absolute;
-  flex-direction: row;
-  align-items: center;
-  top: 1px;
+  flex-direction: row-reverse;
+  align-items: right;
+  top: -5px;
+  right: 6px;
   width: 100%;
-  margin: 0;
-  padding-top: 12px;
-  padding-right: 9px;
-  padding-left: 3px;
   -webkit-app-region: drag;
 }
 .platform-win .typeWindows_e41dab .wordmark__5b8c9 {
