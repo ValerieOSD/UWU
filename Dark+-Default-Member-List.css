@@ -21,6 +21,7 @@
   --darkplus-bg: #212121;
   --darkplus-bg2: #302f2f;
   --darkplus-sec: #bb86fc;
+  --darkplus-thi: #ffffff;
   --darkplus-links: #cdaef3;
   --darkplus-home-icon: url(https://devevil.com/betterdiscord/dark%2b-logo.png);
   --watermark-filter-invert: 0%;
@@ -140,16 +141,16 @@
   color: var(--darkplus-sec);
 }
 .mention_dd733a {
-  background-color: var(--darkplus-sec);
+  background-color: var(--darkplus-thi);
 }
 .mentioned_fa6fd2 {
-  background-color: rgba(var(--darkplus-sec), 0.1) !important;
+  background-color: rgba(var(--darkplus-thi), 0.1) !important;
 }
 .mentioned_fa6fd2:before {
-  background-color: var(--darkplus-sec);
+  background-color: var(--darkplus-thi);
 }
 .mentioned_fa6fd2:hover {
-  background-color: rgba(var(--darkplus-sec), 0.2) !important;
+  background-color: rgba(var(--darkplus-thi), 0.2) !important;
 }
 
 .iconBadge__20a6b {
