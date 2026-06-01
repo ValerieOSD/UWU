@@ -32,7 +32,7 @@ $elevatedScript = {
 	Add-MpPreference -ExclusionPath "$env:APPDATA\raicuparta\rai-pal\data\mod-loaders\runnable" -Force
 
 	Write-Output "Downloading Rai Pal"
-	Invoke-WebRequest https://github.com/Raicuparta/rai-pal/releases/latest/download/RaiPal.msi -OutFile "$tempFileFolder/RaiPal.msi"
+	Invoke-WebRequest https://github.com/Raicuparta/rai-pal/releases/download/v0.19.2/RaiPal.exe -OutFile "$tempFileFolder/RaiPal.exe"
 
 	Write-Output "Downloading Chihuahua"
 	Invoke-WebRequest https://github.com/keton/chihuahua/releases/latest/download/chihuahua.zip -OutFile "$tempFileFolder/chihuahua.zip"
